@@ -1,0 +1,6 @@
+"deal_potential_id","deal_potential_code","deal_potential_name"
+0,PROSPECT,"Prospect"
+1,RESOURCEDEFICIT,"Resource deficit"
+2,STANDARD,"Standard"
+3,MINOR,"Minor"
+4,OTHER,"Other"

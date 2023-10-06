@@ -1,0 +1,5 @@
+cv_status_id,cv_status_code
+0,New
+1,Contacting
+2,Passed
+10,Failed

@@ -1,0 +1,14 @@
+request_cv_status_id,request_cv_status_code
+0,AddedCV
+1,ScheduledTest
+2,FailedTest
+3,PassedTest
+4,ScheduledInterview
+5,RejectedInterview
+6,PassedInterview
+7,FailedInterview
+8,AcceptedOffer
+9,RejectedOffer
+10,Onboarded
+11,RejectedTest
+12,RejectedApply

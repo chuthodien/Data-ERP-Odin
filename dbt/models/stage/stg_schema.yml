@@ -1,0 +1,20 @@
+version: 2
+
+
+models:    
+  - name: stg_employee
+    columns:
+      - name: hrm_user_id
+        tests:
+          - not_null
+      - name: tsh_user_id
+        tests:
+          # - not_null
+      - name: email
+        tests:
+          - not_null
+  - name: stg_employee_skills
+    columns:
+      - name: employee_email
+        tests:
+          - not_null

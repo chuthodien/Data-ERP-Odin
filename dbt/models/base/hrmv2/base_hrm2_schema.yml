@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: raw_hrmv2
+    schema: raw_hrmv2
+    loaded_at_field: _loaded_at
+    tables:
+      - name: hrm_banks
+      - name: hrm_benefitemployees
+      - name: hrm_benefits
+      - name: hrm_bonusemployees
+      - name: hrm_bonuses
+      - name: hrm_branches
+      - name: hrm_debtpaids
+      - name: hrm_debtpaymentplans
+      - name: hrm_debts
+      - name: hrm_emailtemplates
+      - name: hrm_employeebranchhistories
+      - name: hrm_employeecontracts
+      - name: hrm_employees
+      - name: hrm_employeeskills
+      - name: hrm_employeeteams
+      - name: hrm_employeeworkinghistories
+      - name: hrm_inputpayslipsalaries
+      - name: hrm_jobpositions
+      - name: hrm_levels
+      - name: hrm_payrolls
+      - name: hrm_payslipdetails
+      - name: hrm_payslips
+      - name: hrm_payslipteams
+      - name: hrm_punishmentemployees
+      - name: hrm_punishments
+      - name: hrm_punishmenttypes
+      - name: hrm_salarychangerequestemployees
+      - name: hrm_salarychangerequests
+      - name: hrm_skills
+      - name: hrm_teams
+
+
+ 

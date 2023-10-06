@@ -1,0 +1,4 @@
+project_status_id,project_status_code,project_status_name
+0,POTENTIAL,"Potential"
+1,INPROGRESS,"In progress"
+2,CLOSED,"Closed"

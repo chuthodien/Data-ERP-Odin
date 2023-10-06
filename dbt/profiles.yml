@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: "{{ env_var('DWH_POSTGRES_HOST', '172.16.100.157') }}"
+      port: 5435
+      user: "{{ env_var('DWH_POSTGRES_ADMIN', 'admin') }}"
+      pass: "{{ env_var('DWH_POSTGRES_PASSWORD', 'admin') }}"
+      dbname: "{{ env_var('DWH_POSTGRES_DB', 'dwh-raw-dev') }}"
+      schema: "{{ env_var('DWH_POSTGRES_PRS_SCHEMA', 'public') }}"
+
+  target: dev

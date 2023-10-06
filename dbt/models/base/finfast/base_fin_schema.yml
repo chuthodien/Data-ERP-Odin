@@ -1,0 +1,53 @@
+version: 2
+
+sources:
+  - name: raw_finfast
+    schema: raw_finfast
+    loaded_at_field: _loaded_at
+    tables:
+    - name: fin_abpusers
+    - name: fin_accounts
+    - name: fin_accounttypes
+    - name: fin_bankaccounts
+    - name: fin_banks
+    - name: fin_banktransactions
+    - name: fin_branches
+    - name: fin_btransactionlogs
+    - name: fin_btransactions
+    - name: fin_comments
+    - name: fin_comparativestatistics
+    - name: fin_currencies
+    - name: fin_currencyconverts
+    - name: fin_explanations
+    - name: fin_financereviewexplains
+    - name: fin_incomingentries
+    - name: fin_incomingentrytypes
+    - name: fin_invoicebanktransactions
+    - name: fin_invoicedetails
+    - name: fin_invoices
+    - name: fin_outcomingentries
+    - name: fin_outcomingentrybanktransaction
+    - name: fin_outcomingentrydetails
+    - name: fin_outcomingentryfiles
+    - name: fin_outcomingentryhistories
+    - name: fin_outcomingentrysupplier
+    - name: fin_outcomingentrytypes
+    - name: fin_relationinoutentry
+    - name: fin_revenuemanagedfiles
+    - name: fin_revenuemanageds
+    - name: fin_supplier
+    - name: fin_useroutcomingtype
+    - name: fin_workflows
+    - name: fin_workflowstatuses
+    - name: fin_workflowstatustransitionpermissions
+    - name: fin_workflowstatustransitions
+
+models:
+  - name: base_fin_branches
+    columns:
+      - name: branch_id
+        tests:
+          - check_equal:
+              to: ref('base_fin_outcomingentries')
+              field: "branch_id"
+              

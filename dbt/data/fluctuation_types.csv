@@ -1,0 +1,8 @@
+fluctuation_id,fluctuation_code,fluctuation_name
+0,OFF,Offboard
+1,ON,Onboard
+2,START,Start Contract
+3,END,End Contract
+4,RENEW,Renew Contract
+5,ACC_ADD,Start Account
+6,ACC_END,End Account

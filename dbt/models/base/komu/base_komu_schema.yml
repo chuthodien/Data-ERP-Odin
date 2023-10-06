@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: raw_komu
+    schema: raw_komu
+    loaded_at_field: _loaded_at
+    tables:
+      - name: _airbyte_raw_komu_birthdays
+      - name: komu_bwls
+      - name: komu_bwlusers
+      - name: komu_channels
+      - name: _airbyte_raw_komu_conversation
+      - name: _airbyte_raw_komu_daily
+      - name: komu_guilddatas
+      - name: komu_keeps
+      - name: _airbyte_raw_komu_mentioned
+      - name: _airbyte_raw_komu_msg
+      - name: _airbyte_raw_komu_penatly
+      - name: komu_users
+      - name: _airbyte_raw_komu_wfh
+      - name: _airbyte_raw_komu_joincall
+      - name: _airbyte_raw_komu_user
+      - name: _airbyte_raw_komu_channel
+      - name: _airbyte_raw_komu_opentalks
+      - name: _airbyte_raw_komu_order
+      - name: _airbyte_raw_komu_question
+      - name: _airbyte_raw_komu_tracker_spent_time
+      - name: _airbyte_raw_komu_timevoicealone
+      - name: _airbyte_raw_komu_tx8
+      - name: _airbyte_raw_komu_voicechannels
+      - name: _airbyte_raw_komu_checkcamera
+      - name: _airbyte_raw_komu_meeting
+      - name: _airbyte_raw_komu_userquiz
+      - name: _airbyte_raw_komu_wiki
+      - name: _airbyte_raw_komu_workout
+      - name: _airbyte_raw_komu_bwl
+      - name: _airbyte_raw_komu_checklist
+      - name: _airbyte_raw_komu_companytrip
+      - name: _airbyte_raw_komu_guilddata
+      - name: _airbyte_raw_komu_holiday
+      - name: _airbyte_raw_komu_bwlreaction
+models:
+  - name: base_komu_users

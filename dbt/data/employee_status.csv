@@ -1,0 +1,5 @@
+employee_status_id,employee_status_code,employee_status_name
+1,WORKING,Working
+2,PAUSING,Pausing
+3,QUIT,Quit
+4,MATERNITYLEAVE,MaternityLeave

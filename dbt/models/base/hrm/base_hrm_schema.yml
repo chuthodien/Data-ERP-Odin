@@ -1,0 +1,51 @@
+version: 2
+
+sources:
+  - name: raw_hrm
+    schema: raw_hrm
+    loaded_at_field: _loaded_at
+    tables:
+      - name: hrm_abpusers
+      - name: hrm_bonususers
+      - name: hrm_bonus
+      - name: hrm_historysalaries
+      - name: hrm_punishments
+      - name: hrm_salaryexecutions
+      - name: hrm_userpunishments
+      - name: hrm_usersalaries
+      - name: hrm_workingcontracts
+      - name: hrm_childcompanies
+      - name: hrm_usersalarymonthrequests
+models:    
+  - name: base_hrm_abpusers
+    columns:
+      - name: username
+        tests:
+          - not_null
+          - dbt_utils.not_accepted_values:
+              values: ['admin', 'admintest']
+      - name: email
+        tests:
+          - not_null
+          - unique:
+              where: "is_deleted = false"
+      - name: start_working_time
+        tests:
+        - dbt_utils.accepted_range:
+            min_value: "'2015-09-02'::TIMESTAMP"
+            max_value: "date('now') + interval '1 year'"
+      - name: employee_code
+        tests:
+          - not_null
+      - name: is_deleted
+        tests:
+          - accepted_values:
+              values: ['false']
+
+      - name: employee_type
+        tests:
+          - accepted_values:
+              values: ['0', '1', '2', '3']
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "substring(email from '@(.*)$') = 'ncc.asia'"

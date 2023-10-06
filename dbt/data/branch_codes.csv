@@ -1,0 +1,9 @@
+branch_id,branch_code,branch_name
+0,HN1,"Ha Noi 1"
+1,DN,"Da Nang"
+2,SG,"Sai Gon"
+3,VI,"Vinh"
+4,HN2,"Ha Noi 2"
+5,SG2,"Sai Gon 2"
+6,QN,"Quy Nhon"
+7,OTHER,Other

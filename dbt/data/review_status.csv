@@ -1,0 +1,6 @@
+review_status_id,review_status_code,review_status_name
+0,DRAFT,DRAFT
+1,REVIEW,"Reviewed"
+2,LEVELUP,"Approved"
+3,CONFIRM,"Confirmed"
+4,REJECT,"Rejected"

@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+  - name: raw_project
+    schema: raw_project
+    loaded_at_field: _loaded_at
+    tables:
+      - name: prj_abpusers
+      - name: prj_auditresultpeoples
+      - name: prj_auditresults
+      - name: prj_auditsessions
+      - name: prj_branchs
+      - name: prj_checklistcategories
+      - name: prj_checklistitemmandatorys
+      - name: prj_checklistitems
+      - name: prj_checkpointuserdetails
+      - name: prj_checkpointuserresults
+      - name: prj_checkpointuserresulttags
+      - name: prj_checkpointusers
+      - name: prj_clients
+      - name: prj_criteriacategories
+      - name: prj_criterias
+      - name: prj_currencies
+      - name: prj_phases
+      - name: prj_pmreportprojectissues
+      - name: prj_pmreportprojects
+      - name: prj_pmreports
+      - name: prj_projectchecklists
+      - name: prj_projectfiles
+      - name: prj_projectmilestones
+      - name: prj_projects
+      - name: prj_projectuserbills
+      - name: prj_projectusers
+      - name: prj_resourcerequests
+      - name: prj_resourcerequestskills
+      - name: prj_skills
+      - name: prj_tags
+      - name: prj_timesheetprojectbills
+      - name: prj_timesheetprojects
+      - name: prj_timesheets
+      - name: prj_userskills
+      - name: prj_technologies
+      - name: prj_projecttechnologies
+models:
+  - name: base_prj_projects

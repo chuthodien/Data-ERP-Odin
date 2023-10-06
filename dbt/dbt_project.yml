@@ -1,0 +1,81 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'ncc_odin'
+version: '0.0.1'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'default'
+
+# These configurations specify where dbt should look for different types of files.
+# The `source-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+    - "target"
+    - "dbt_packages"
+
+
+vars:
+    'dbt_date:time_zone': 'Asia/Bangkok'
+    "dbt_utils_dispatch_list": [dbt_utils]
+
+tests:
+    unaccepted_values:
+        +enabled: true
+    unique_active_record:
+        +enabled: true
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this example config, we tell dbt to build all models in the example/ directory
+# as tables. These settings can be overridden in the individual model files
+# using the `{{ config(...) }}` macro.
+models:
+    base:
+        hrm:
+            materialized: table
+            schema: base
+        hrmv2:
+            materialized: table
+            schema: base
+        hrm_sheets:
+            materialized: table
+            schema: base
+        project:
+            materialized: table
+            schema: base
+        timesheet:
+            materialized: table
+            schema: base
+        crm:
+            materialized: table
+            schema: base
+        talent:
+            materialized: table
+            schema: base
+        tracker:
+            materialized: table
+            schema: base
+        finfast:
+            materialized: table
+            schema: base
+        komu:
+            materialized: table
+            schema: base
+    stage:
+        materialized: table
+        schema: base
+    mart:
+        materialized: table
+        schema: base

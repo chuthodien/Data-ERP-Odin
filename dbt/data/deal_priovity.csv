@@ -1,0 +1,6 @@
+"deal_priovity_id","deal_priovity_code","deal_priovity_name"
+0,BLOCK,"Block"
+1,TRIVAL,"Trival"
+2,MINOR,"Minor"
+3,MAJOR,"Major"
+4,CRITICAL,"Critical"

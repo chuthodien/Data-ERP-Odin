@@ -1,0 +1,7 @@
+job_type_id,job_type_code,job_type_name
+0,DEV,Developer
+1,TEST,TESTER
+2,BO,Back office
+4,SIP,Sipdo
+3,CORE,Core
+5,REN,Ren Hong

@@ -1,0 +1,65 @@
+version: 2
+
+sources:
+  - name: raw_lms
+    schema: raw_lms
+    loaded_at_field: _loaded_at
+    tables:
+      - name: lms_abpusers
+      - name: lms_annoucements
+      - name: lms_answers
+      - name: lms_assignments
+      - name: lms_assignmentsettings
+      - name: lms_categories
+      - name: lms_certificationtemplategradeschemes
+      - name: lms_courseassignedstudents
+      - name: lms_coursecertificationtemplates
+      - name: lms_coursecolors
+      - name: lms_coursecontents
+      - name: lms_coursegroups
+      - name: lms_courseinstances
+      - name: lms_courselevels
+      - name: lms_courses
+      - name: lms_coursetags
+      - name: lms_faqanswers
+      - name: lms_faqquestions
+      - name: lms_gradeschemeelements
+      - name: lms_gradeschemes
+      - name: lms_groupassignedcourses
+      - name: lms_groupassingedassignments
+      - name: lms_groupassingedquizzes
+      - name: lms_groups
+      - name: lms_lmssettings
+      - name: lms_mediacontents
+      - name: lms_modules
+      - name: lms_pagelinkexams
+      - name: lms_pages
+      - name: lms_qaanswers
+      - name: lms_qaquestions
+      - name: lms_questionquizzes
+      - name: lms_questions
+      - name: lms_quizsettings
+      - name: lms_quizzes
+      - name: lms_resources
+      - name: lms_scormtestattempts
+      - name: lms_studentanswers
+      - name: lms_studentassignmentfiles
+      - name: lms_studentassignments
+      - name: lms_studentassingedassignments
+      - name: lms_studentassingedquizzes
+      - name: lms_studentcoursegroups
+      - name: lms_studentprogresses
+      - name: lms_studentprogressscorms
+      - name: lms_studentscorms
+      - name: lms_studentsurveys
+      - name: lms_sysdiagrams
+      - name: lms_teacherviewdiscussions
+      - name: lms_testattempts
+      - name: lms_userbookmarks
+      - name: lms_usercertifications
+      - name: lms_userextraroles
+      - name: lms_userfollowqas
+      - name: lms_usergroups
+      - name: lms_userlinks
+      - name: lms_userstatuses
+      - name: lms_usertimezones

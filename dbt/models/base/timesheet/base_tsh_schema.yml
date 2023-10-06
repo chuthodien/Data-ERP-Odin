@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: raw_timesheet
+    schema: raw_timesheet
+    loaded_at_field: _loaded_at
+    tables:
+    - name: tsh_abpusers
+    - name: tsh_absencedaydetails
+    - name: tsh_absencedayrequests
+    - name: tsh_branchs
+    - name: tsh_customers
+    - name: tsh_dayoffsettings
+    - name: tsh_dayofftypes
+    - name: tsh_funds
+    - name: tsh_historyworkingtimes
+    - name: tsh_mytimesheets
+    - name: tsh_projecttargetusers
+    - name: tsh_projectusers
+    - name: tsh_retroresults
+    - name: tsh_retros
+    - name: tsh_reviewdetails
+    - name: tsh_reviewinterns
+    - name: tsh_taskprojects
+    - name: tsh_tasks
+    - name: tsh_timekeepings
+    - name: tsh_unlocktimesheets
+    - name: tsh_userunlockims
+    - name: tsh_projects
+models:
+  - name: base_tsh_timekeepings

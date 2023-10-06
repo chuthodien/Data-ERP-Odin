@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: contest_result_sheet
+    schema: contest_result_sheet
+    loaded_at_field: _loaded_at
+    tables:
+      - name: contest_result

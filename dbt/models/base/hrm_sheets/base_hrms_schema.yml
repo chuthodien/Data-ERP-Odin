@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: hrm_sheets
+    schema: hrm_sheets
+    loaded_at_field: _loaded_at
+    tables:
+      - name: hrm_employee_start_date
+models:
+  - name: base_hrms_employee_start_date

@@ -1,0 +1,7 @@
+project_type_id,project_type_code,project_type_name
+0,ODC,"Offshore"
+1,TNM,"Time and materials"
+2,FIXPRICE,"Fixed price"
+3,PRODUCT,"Product"
+4,NOBILL,"No Bill"
+5,TRAINING,"Training"

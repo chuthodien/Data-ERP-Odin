@@ -1,0 +1,7 @@
+project_type_id,project_type_code,percent_project,default_income
+0,ODC,5,1000
+1,TNM,5,1000
+2,FIXPRICE,5,1000
+3,PRODUCT,1,1000
+4,NOBILL,1,1000
+5,TRAINING,1,1000

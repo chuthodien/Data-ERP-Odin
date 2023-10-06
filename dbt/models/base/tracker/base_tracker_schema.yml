@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_tracker
+    schema: raw_tracker
+    loaded_at_field: _loaded_at
+    tables:
+      - name: raw_buckets
+      - name: raw_reports
+      - name: raw_events
+      - name: raw_users

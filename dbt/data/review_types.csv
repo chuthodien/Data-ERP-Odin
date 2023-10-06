@@ -1,0 +1,5 @@
+review_type_id,review_type_code,review_type_name
+0,INTERN,"Intern review"
+1,CHECKPOINT,"Checkpoint review"
+2,PROJECT,"Project review
+3,OTHER,"Other review"

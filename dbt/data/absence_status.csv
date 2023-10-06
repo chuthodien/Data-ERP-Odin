@@ -1,0 +1,4 @@
+absence_status_id,absence_status_code,absence_status_name
+0,PENDING,Pending
+1,APPROVED,Approved
+2,REJECTED,Rejected

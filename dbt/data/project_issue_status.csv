@@ -1,0 +1,3 @@
+issue_status,issue_status_code,issue_status_name
+0,OPEN,"Open"
+1,CLOSED,"Closed"

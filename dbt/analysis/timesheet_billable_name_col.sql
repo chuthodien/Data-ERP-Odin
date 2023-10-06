@@ -1,0 +1,1 @@
+(CASE WHEN billable IS TRUE THEN 'Billable' ELSE 'Unbillable' END)

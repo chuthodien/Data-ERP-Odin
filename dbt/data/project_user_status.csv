@@ -1,0 +1,4 @@
+status_id,status_code
+0,PRESENT
+1,PAST
+2,FUTURE

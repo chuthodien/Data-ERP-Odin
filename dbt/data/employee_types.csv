@@ -1,0 +1,7 @@
+employee_type_id,employee_type_code,employee_type_name
+0,"INTERN","Internship"
+1,"COLAB","Collaborator"
+2,"STAFF","Staff"
+3,"PROBATIONARYSTAFF","ProbationaryStaff"
+4,"FAKEUSER","FakeUser"
+5,"VENDOR","Vendor"

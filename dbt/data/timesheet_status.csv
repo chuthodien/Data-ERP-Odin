@@ -1,0 +1,5 @@
+timesheet_status_id,timesheet_status_code,timesheet_status_name
+0,REJECT,Reject
+1,PENDING,Pending
+2,APPROVE,Approved
+3,OTHER,Other

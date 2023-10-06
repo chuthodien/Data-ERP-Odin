@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: checkpoint_result
+    schema: checkpoint_result
+    loaded_at_field: _loaded_at
+    tables:
+      - name: checkpoint_result

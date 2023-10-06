@@ -1,0 +1,143 @@
+
+
+============================== 14:40:57.261304 | 6e7fc4f5-9f16-4cb1-a4e4-01d6531ee6c1 ==============================
+[0m14:40:57.261304 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:40:57.263306 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:40:57.264515 [info ] [MainThread]: dbt version: 1.5.0-b5
+[0m14:40:57.265064 [info ] [MainThread]: python version: 3.9.5
+[0m14:40:57.266065 [info ] [MainThread]: python path: c:\program files\python39\python.exe
+[0m14:40:57.268060 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m14:40:57.269093 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m14:40:57.270159 [info ] [MainThread]: Using dbt_project.yml file at ./dbt_project.yml
+[0m14:40:57.271374 [info ] [MainThread]: Configuration:
+[0m14:40:57.271913 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m14:40:57.272922 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:40:57.274923 [info ] [MainThread]: Required dependencies:
+[0m14:40:57.276276 [debug] [MainThread]: Executing "git --help"
+[0m14:40:57.338213 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:40:57.338718 [debug] [MainThread]: STDERR: "b''"
+[0m14:40:57.339719 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:40:57.340717 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:40:57.342961 [info ] [MainThread]: dbt looked for a profiles.yml file in ./profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:40:57.346057 [debug] [MainThread]: Command `dbt debug` failed at seconds: 1681285257
+nanos: 346057000
+ after 0.08 seconds
+[0m14:40:57.346567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013069B26910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001306D108760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001306D108790>]}
+[0m14:40:57.347572 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:42:00.155382 | 171368d1-9e29-4fdd-9c45-37c20109d729 ==============================
+[0m14:42:00.155382 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:42:00.157432 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': './', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:42:00.157432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA54E36970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA58418610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA58418D90>]}
+[0m14:42:00.158594 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:45:39.973820 | c985f87e-a00e-4a2f-84df-cbed3889ec30 ==============================
+[0m14:45:39.973820 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:45:39.976486 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:45:39.978385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D13449CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D16179940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D16179280>]}
+[0m14:45:39.981130 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:47:07.880911 | 0439513f-26fa-4b88-8426-fdcc44e6a76f ==============================
+[0m14:47:07.880911 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:47:07.881907 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': './', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:47:07.884068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3062E9CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3090197F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3090192B0>]}
+[0m14:47:07.885066 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:57:41.941840 | 49c8464e-28ad-48d5-a906-e5e3bd7f933a ==============================
+[0m14:57:41.941840 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:57:41.942894 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hp\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:57:41.943900 [info ] [MainThread]: dbt version: 1.5.0-b5
+[0m14:57:41.944404 [info ] [MainThread]: python version: 3.9.5
+[0m14:57:41.944404 [info ] [MainThread]: python path: c:\program files\python39\python.exe
+[0m14:57:41.945911 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m14:57:41.945911 [info ] [MainThread]: Using profiles.yml file at C:\Users\hp\.dbt\profiles.yml
+[0m14:57:41.946911 [info ] [MainThread]: Using dbt_project.yml file at D:\Năm 4\Thực tập NCC\ncc-erp-odin\dbt_project.yml
+[0m14:57:41.947415 [info ] [MainThread]: Configuration:
+[0m14:57:41.947415 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m14:57:41.948654 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:57:41.948654 [info ] [MainThread]: Required dependencies:
+[0m14:57:41.948654 [debug] [MainThread]: Executing "git --help"
+[0m14:57:42.004423 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:57:42.005931 [debug] [MainThread]: STDERR: "b''"
+[0m14:57:42.005931 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:57:42.006932 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:57:42.008083 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\hp\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:57:42.011079 [debug] [MainThread]: Command `dbt debug` failed at seconds: 1681286262
+nanos: 11079000
+ after 0.07 seconds
+[0m14:57:42.012075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2C639F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2F3695E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2F3696A0>]}
+[0m14:57:42.012075 [debug] [MainThread]: Flushing usage events
+
+
+============================== 09:33:50.855567 | 45c1e53b-c5cb-498c-94f9-72874408ed4b ==============================
+[0m09:33:50.855567 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m09:33:50.857560 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': './', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m09:33:50.859556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C3C969F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C3F6997C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C3F699280>]}
+[0m09:33:50.860553 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:43:40.489755 | 4b3caba3-5b80-4c69-8d35-f133c876bb40 ==============================
+[0m14:43:40.489755 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:43:40.491750 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:43:40.494959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EBA959130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EBD688820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EBD6882E0>]}
+[0m14:43:40.497353 [debug] [MainThread]: Flushing usage events
+
+
+============================== 11:52:20.097963 | 8360db02-477a-4f94-9da7-74c212f2181e ==============================
+[0m11:52:20.097963 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m11:52:20.098960 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': './', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:52:20.099957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E02F19F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E05C497C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E05C49280>]}
+[0m11:52:20.100954 [debug] [MainThread]: Flushing usage events
+
+
+============================== 08:56:06.354210 | f4256f15-0e4a-4f73-af63-d58802cf50f3 ==============================
+[0m08:56:06.354210 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m08:56:06.355209 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': './', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m08:56:06.356205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EE53F9130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EE8128820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EE81282E0>]}
+[0m08:56:06.356205 [debug] [MainThread]: Flushing usage events
+
+
+============================== 11:35:44.976089 | 6e5e000d-944b-46e5-9247-b79725a3d359 ==============================
+[0m11:35:44.976089 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m11:35:44.977089 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': './', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:35:44.978084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258FCA9F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225929DA7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225929DA280>]}
+[0m11:35:44.978084 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:01:19.587616 | f2e6f8f9-8e59-4ef1-87e4-1954e6ba4162 ==============================
+[0m14:01:19.587616 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m14:01:19.588616 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': './', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:01:19.589613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B70CE69550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B70FB98850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B70FB98310>]}
+[0m14:01:19.589613 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:36:06.452783 | 46b79ae0-c167-47ad-aff2-a43037d697f6 ==============================
+[0m17:36:06.452783 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m17:36:06.454189 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:36:06.454189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238C6199CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238C8EC97F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238C8EC92B0>]}
+[0m17:36:06.455190 [debug] [MainThread]: Flushing usage events
+
+
+============================== 09:42:55.536320 | a794b762-4f15-45b2-a448-3e28227eaab0 ==============================
+[0m09:42:55.536320 [info ] [MainThread]: Running with dbt=1.5.0-b5
+[0m09:42:55.537318 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m09:42:55.538743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002397B49CC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239012C97F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239012C9280>]}
+[0m09:42:55.539246 [debug] [MainThread]: Flushing usage events

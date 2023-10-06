@@ -1,0 +1,50 @@
+version: 2
+
+sources:
+  - name: raw_crm
+    schema: raw_crm
+    loaded_at_field: _loaded_at
+    tables:
+      - name: _airbyte_raw_crm_assignments
+      - name: _airbyte_raw_crm_campaigns
+      - name: _airbyte_raw_crm_clientcontacts
+      - name: _airbyte_raw_crm_clients
+      - name: _airbyte_raw_crm_contacts
+      - name: _airbyte_raw_crm_contracts
+      - name: _airbyte_raw_crm_dealcomments
+      - name: _airbyte_raw_crm_dealdetails
+      - name: _airbyte_raw_crm_deals
+      - name: _airbyte_raw_crm_entityassignments
+      - name: _airbyte_raw_crm_levels
+      - name: _airbyte_raw_crm_projects
+      - name: _airbyte_raw_crm_regions
+      - name: _airbyte_raw_crm_skills
+      - name: _airbyte_raw_crm_techstacks
+      - name: _airbyte_raw_crm_techstacksdeal
+      - name: _airbyte_raw_crm_userassignments
+      - name: _airbyte_raw_crm_userteams
+      - name: _airbyte_raw_crm_workflows
+      - name: _airbyte_raw_crm_workflowstatuses
+      - name: _airbyte_raw_crm_workflowtransitions
+models:
+      - name: base_crm_assignments
+      - name: base_crm_campaigns
+      - name: base_crm_clientcontacts
+      - name: base_crm_clients
+      - name: base_crm_contacts
+      - name: base_crm_contracts
+      - name: base_crm_dealcomments
+      - name: base_crm_dealdetails
+      - name: base_crm_deals
+      - name: base_crm_entityassignments
+      - name: base_crm_levels
+      - name: base_crm_projects
+      - name: base_crm_regions
+      - name: base_crm_skills
+      - name: base_crm_techstacks
+      - name: base_crm_techstacksdeal
+      - name: base_crm_userassignments
+      - name: base_crm_userteams
+      - name: base_crm_workflows
+      - name: base_crm_workflowstatuses
+      - name: base_crm_workflowtransitions

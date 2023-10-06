@@ -1,0 +1,4 @@
+"health_id","heath_code","health_name"
+0,NORMAL,"Normal"
+1,CAUTION,"Caution"
+2,DANGER,"Danger"

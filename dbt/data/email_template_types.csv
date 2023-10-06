@@ -1,0 +1,8 @@
+type_id,type_code
+0,FailedCV
+1,ScheduledTest
+2,FailedTest
+3,ScheduledInterview
+4,FailedInterview
+5,AcceptedOfferInternship
+6,AcceptedOfferJob

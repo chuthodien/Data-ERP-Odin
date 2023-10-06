@@ -1,0 +1,4 @@
+"customer_status_id","customer_status_code","customer_status_name"
+0,NEW,"Prospect"
+1,REGULAR,"Regular contact"
+2,INACTIVE,"Inactive contact"

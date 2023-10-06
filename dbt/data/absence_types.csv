@@ -1,0 +1,4 @@
+absence_type_id,absence_type_code,absence_type_name
+0,TIMEOFF,Off
+1,ONSITE,Onsite
+2,REMOTE,Remote

@@ -1,0 +1,50 @@
+version: 2
+
+sources:
+  - name: raw_talent
+    schema: raw_talent
+    loaded_at_field: _loaded_at
+    tables:
+      - name: tal_abpusers
+      - name: tal_branches
+      - name: tal_capabilities
+      - name: tal_capabilitysettings
+      - name: tal_cveducations
+      - name: tal_cvs
+      - name: tal_cvskills
+      - name: tal_cvsources
+      - name: tal_educations
+      - name: tal_educationstypes
+      - name: tal_emailstatushistories
+      - name: tal_emailtemplates
+      - name: tal_employeeeducations
+      - name: tal_employeelanguages
+      - name: tal_employeepositions
+      - name: tal_employeeskills
+      - name: tal_employeeworkingexpandtechnologies
+      - name: tal_employeeworkingexperiences
+      - name: tal_fakeskills
+      - name: tal_groupskills
+      - name: tal_positions
+      - name: tal_positionsettings
+      - name: tal_projects
+      - name: tal_evaluatedetails
+      - name: tal_evaluates
+      - name: tal_interviewcandidates
+      - name: tal_positiontype
+      - name: tal_requestapprovers
+      - name: tal_requestcvapprovedresults
+      - name: tal_requestcvresults
+      - name: tal_requestcvs
+      - name: tal_requests
+      - name: tal_skills
+      - name: tal_sources
+      - name: tal_sourcetypes
+      - name: tal_versions
+      - name: tal_technologies
+      - name: tal_subpositions
+      - name: tal_requestskills
+      - name: tal_requestcvstatushistories
+      - name: tal_requestcvinterviews
+      - name: tal_requestcvcapabilityresults
+      - name: tal_projecttechnologies
